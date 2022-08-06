@@ -1,0 +1,12 @@
+@use './common.scss';
+
+.home-wrapper {
+  background-color: skyblue;
+  width: 100vw;
+  height: 100vh;
+  .home-contents {
+    display: flex;
+    color: red;
+    justify-content: center;
+  }
+}
